@@ -96,10 +96,10 @@ const checkForWinner=()=>{
      for(let c=0;c<winningCombos.length;c++){
         let currnt=winningCombos[c];
         if(board[currnt[0]]!=='' 
-            && 
-            board[currnt[0]]===board[currnt[1]]
-             && 
-             board[currnt[0]]===board[currnt[2]])
+           && 
+           board[currnt[0]]===board[currnt[1]]
+           && 
+           board[currnt[0]]===board[currnt[2]])
             winner=true;
         
 
