@@ -12,7 +12,6 @@ const winningCombos=[
     [2,4,6],
 ]
 
-
 /*---------------------------- Variables (state) ----------------------------*/
 let board;
 let turn;
